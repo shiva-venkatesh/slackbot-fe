@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Colfax';
+  src: url('fonts/Colfax-Regular.eot');
+  src: url('fonts/Colfax-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Colfax-Regular.woff') format('woff'),
+    url('fonts/Colfax-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('fonts/Colfax-Medium.eot');
+  src: url('fonts/Colfax-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Colfax-Medium.woff') format('woff'),
+    url('fonts/Colfax-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Colfax', sans-serif !important;
+  letter-spacing: 0.2px;
+  word-spacing: .5px;
+  font-weight: normal;
+  transition: all 200ms ease;
+  line-height: 1.5 !important;
+}
+
+body {
+  background: #D2D8DD;
+}
+
+.navbar {
+  background: #fff;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.login {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.login .btn {
+  background: #fff;
+  border: 1px solid red;
+  color: red;
+  cursor: pointer;
+  width: 100px;
+}
+
+.sidebar {
+  background: #40414E;
+  padding: 50px 30px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.header {
+  color: #fff;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.list li {
+  padding: 5px 0;
+}
+
+.list li a {
+  color: #c7cfd2;
+}
+
+.list li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.music-icon {
+  margin-right: 10px;
+}
+
+.container-inner {
+  background: #F6F9FA;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.video-container {
+  text-align: center;
+  position: relative;
+}
+
+.video-container img {
+  height: 450px;
+  width: 800px;
+}
+
+.main-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.description {
+  color: #40414E;
+  font-size: 14px;
+  margin: 20px 50px;
+}
+
+.list-item img {
+  width: 200px;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.play-list .name a {
+  font-size: 14px;
+  color: #292b2c;
+  font-weight: 500;
+}
+
+.play-list .name a:hover {
+  font-size: 14px;
+  color: #292b2c;
+  text-decoration: none;
+  color: red;
+}
+
+.play-list .genre {
+  font-size: 13px;
+  text-align: center;
+  color: #777;
+}
+
+.play-list .genre a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.list-heading {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.shadow-element {
+  box-shadow: 0 13px 40px 0 rgba(0,0,0,0.2), 0 19px 21px 0 rgba(0,0,0,0.19);
+  position: absolute;
+  width: 550px;
+height: 12px;
+left: 0;
+margin-left: 180px;
+bottom: 16px;
+}
+
+.video {
+  height: 200px;
+}

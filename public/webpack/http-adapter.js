@@ -79,8 +79,7 @@ class HttpAdapter {
 }
 
 const http = new HttpAdapter({
-  baseURL: 'http://localhost:3000/',
-  namespace: 'api'
+  baseURL: 'http://localhost:4205/'
 });
 
 export default http;

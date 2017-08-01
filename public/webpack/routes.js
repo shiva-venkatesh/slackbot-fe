@@ -4,5 +4,5 @@ import React from 'react';
 import App from './index';
 
 export default (
-    <Route path="/user/:id" component={App}/>
+    <Route path="/app" component={App}/>
 )
